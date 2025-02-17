@@ -1,0 +1,409 @@
+{
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.emptySelectionClipboard": false,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "editor.minimap.enabled": true,
+    "editor.lineNumbers": "off",
+    "editor.hover.enabled": true,
+    "editor.matchBrackets": "never",
+    "editor.colorDecorators": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "editor.renderControlCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.renderWhitespace": "none",
+    "editor.smoothScrolling": true,
+    "editor.suggestSelection": "first",
+    "editor.cursorStyle": "block",
+    "editor.guides.indentation": false,
+    "editor.inlineSuggest.enabled": true,
+    // Include "-" in word selection.
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.glyphMargin": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    /** Sticky scroll **/
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.enabled": false,
+
+    /** Typography **/
+    "editor.fontFamily": "DM Mono",
+    "editor.fontSize": 20,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 70,
+    "editor.suggestFontSize": 15,
+    "editor.suggestLineHeight": 28,
+
+    /** Terminal **/
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 2,
+    "terminal.integrated.fontFamily": "DM Mono",
+    "terminal.integrated.profiles.linux": {
+    "bash": {
+        "path": "bash",
+        "icon": "terminal-bash"
+},
+    "zsh": {
+        "path": "zsh"
+    },
+    "fish": {
+        "path": "fish"
+    },
+    "tmux": {
+        "path": "tmux",
+        "icon": "terminal-tmux"
+      },
+      "pwsh": {
+        "path": "pwsh",
+        "icon": "terminal-powershell"
+      },
+      "nu": {
+        "path": "C:/Users/patel/scoop/apps/nu/0.102.0/nu.exe"
+      }
+    },
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Nu shell":{
+            "path": "C:/Users/patel/scoop/apps/nu/0.102.0/nu.exe",
+        }
+    },
+    /** Workbench / Window **/
+    "workbench.editor.enablePreview": false,
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": true,
+    "workbench.editor.showTabs": "single",
+    "workbench.tips.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.fontAliasing": "antialiased", // This is only for macOS 🥲
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "window.newWindowDimensions": "inherit",
+    "window.autoDetectColorScheme": true,
+    "problems.decorations.enabled": false,
+    "workbench.panel.defaultLocation": "left",
+    // For windows and mac set titleBarStyle to custom and linux set it to native.
+    // For kde based distro, use "native" and for gnome use "custom".
+    "window.titleBarStyle": "custom",
+    "window.commandCenter": false,
+
+    // Disable telemetry
+    "telemetry.telemetryLevel": "off",
+
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "scm.diffDecorations": "none",
+    "git.decorations.enabled": false,
+    "git.autofetch": true,
+
+    /** Search **/
+    "search.smartCase": true,
+    "search.useIgnoreFiles": true,
+    "search.exclude": {
+      "**/vendor/{[^l],?[^ai]}*": true,
+      "**/public/{[^i],?[^n]}*": true,
+      "**/node_modules": true,
+      "**/build": true,
+      "**/dist": true,
+      "**/composer.lock": true,
+      "**/package-lock.json": true,
+      "storage": true,
+      "**/.vscode": true,
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/.idea": true,
+      "**/.vs": true,
+      "**/.sass-cache": true,
+      "**/.cache": true,
+      "**/.npm": true,
+      "**/.yarn": true,
+      "**/.yarn-cache": true,
+      "**/.yarn-integrity": true,
+      "**/.yarnrc": true,
+      "**/.yarnrc.yml": true,
+      "**/.yarnrc.json": true,
+      "**/.yarnrc.js": true,
+      "**/.yarnrc.cjs": true,
+      "yarn.lock": true,
+      "**/.next": true,
+      "**/vendor/*": true,
+      "**/public/*": true,
+      "**/yarn.lock": true
+    },
+
+    /** Code **/
+    "emmet.includeLanguages": {
+      "vue-html": "html",
+      "vue": "html",
+      "javascript": "javascriptreact"
+    },
+
+    /** Files **/
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.enableTrash": false,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      ".cache-loader/": true,
+      ".gitattributes": true,
+      ".gitkeep": true,
+      ".travis.yml": true,
+      ".vercel": true,
+      ".vscode/": true,
+      "coverage": true,
+      "acf-json": true,
+      "CODE_OF_CONDUCT.md": true,
+      "LICENSE.md": true,
+      "package-lock.json": true,
+      "yarn.lock": true,
+      "phpcs.xml": true,
+      ".editorconfig": true,
+      "**/node_modules": true,
+      "**/dist": true,
+      ".output/node_modules/": false,
+      "**/.turbo": true,
+      "**/.react-email": true,
+      "**/yarn-error.log": true,
+      "**/.next": true
+    },
+    "files.associations": {
+      "*.env.development": "env",
+      "*.env.production": "env",
+      "*.env.testing": "env",
+      "*.env.example": "env",
+      "*.env": "env",
+      "*.env.local": "env",
+      "*.env.test": "env"
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true,
+      "**/.hg/store/**": true,
+      "**/.output/**": true,
+      "**/.yarn/**": true,
+      "**/node_modules/**": true
+    },
+
+    /** Prettier **/
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[html]": {
+      "editor.suggest.insertMode": "replace",
+      "editor.defaultFormatter": "vscode.html-language-features",
+      "editor.formatOnSave": true
+    },
+    "[css]": {
+      "editor.suggest.insertMode": "replace",
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[scss]": {
+      "editor.suggest.insertMode": "replace",
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[pug]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[go]": {
+      "editor.insertSpaces": false,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+      },
+      "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[prisma]": {
+      "editor.defaultFormatter": "Prisma.prisma",
+      "editor.formatOnSave": true
+    },
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+
+    /** JS/TS **/
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    /** TODO Tree extension **/
+    "todo-tree.general.tags": [
+      "TODO",
+      "FIXME",
+      "BUG",
+      "COMPLETE",
+      "NOTE",
+      "REVIEW",
+      "CHANGED",
+      "TAG",
+      "REMOVEME",
+      "IMPLEMENTME",
+      "HACK",
+      "TEMP",
+      "IDEA",
+      "INFO",
+      "TEST",
+      "DEPRECATED",
+      "REFACTOR"
+    ],
+    "todo-tree.highlights.customHighlight": {
+      "TODO": {
+        "icon": "checklist",
+        "type": "text",
+        "background": "#ffbd2a",
+        "foreground": "#ffffff"
+      },
+      "COMPLETE": {
+        "icon": "check-circle-fill",
+        "iconColour": "#00b894",
+        "type": "text",
+        "background": "#00b894",
+        "foreground": "#ffffff"
+      },
+      "FIXME": {
+        "icon": "alert-fill",
+        "iconColour": "#ff7675",
+        "type": "text",
+        "background": "#ff7675",
+        "foreground": "#ffffff"
+      },
+      "BUG": {
+        "icon": "$(bug)",
+        "type": "text",
+        "background": "#FF0303",
+        "foreground": "#ffffff"
+      },
+      "NOTE": {
+        "icon": "book",
+        "type": "text",
+        "background": "#00cec9",
+        "foreground": "#ffffff"
+      },
+      "REVIEW": {
+        "icon": "eye",
+        "type": "text",
+        "background": "#0984e3",
+        "foreground": "#ffffff"
+      },
+      "CHANGED": {
+        "icon": "file-diff",
+        "type": "text",
+        "background": "#fdcb6e",
+        "foreground": "#ffffff"
+      },
+      "TAG": {
+        "icon": "tag",
+        "type": "text",
+        "background": "#285430",
+        "foreground": "#ffffff"
+      },
+      "REMOVEME": {
+        "icon": "trash",
+        "type": "text",
+        "background": "#d63031",
+        "foreground": "#ffffff"
+      },
+      "IMPLEMENTME": {
+        "icon": "code",
+        "type": "text",
+        "background": "#0984e3",
+        "foreground": "#ffffff"
+      }
+    },
+
+    /** Eslint **/
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+
+    /** Tailwind CSS IntelliSense **/
+    "tailwindCSS.experimental.classRegex": [
+      ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+      ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+      ["classnames\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+      ["defaultTheme \\=([^;]*);", "'([^']*)'"],
+      ["defaultTheme \\=([^;]*);", "\"([^\"]*)\""],
+      ["defaultTheme \\=([^;]*);", "\\`([^\\`]*)\\`"]
+    ],
+
+    "vscode_custom_css.imports": [
+        "file:///F:/VS Code configure/custom.css"
+    ],
+    "explorer.compactFolders": false,
+
+    /** Github copilot **/
+    "github.copilot.enable": {
+      "*": true,
+      "markdown": true,
+      "plaintext": false,
+      "yaml": false
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Kanagawa",
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "workbench.preferredDarkColorTheme": "Palenight Italic",
+    "terminal.integrated.defaultProfile.windows": "Nu shell",
+    "window.menuBarVisibility": "compact",
+    "editor.minimap.autohide": true,
+    "workbench.activityBar.location": "hidden",
+
+  }
