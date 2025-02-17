@@ -160,8 +160,8 @@ The setup includes a custom SVG background watermark. To modify it:
 1. Create your SVG design using any vector graphics editor
 2. Convert your SVG to a Data URI:
    - Use an online SVG to Data URI converter
-   - Visit [SVG to Data URI Converter](https://yoksel.github.io/url-encoder/) or similar tools
-   - Paste your SVG code and get the Data URI version
+   - Visit [SVG to Data URI Converter](https://www.svgviewer.dev/svg-to-data-uri) or similar tools
+   - Paste/Upload your SVG code/file and get the Data URI version
 
 3. Replace the existing Data URI in `custom.css`:
 ```css
