@@ -9,6 +9,8 @@ Here's how your VS Code will look after applying these settings:
 ![VS Code Preview 1](img/1.png)
 
 ![VS Code Preview 2](img/2.png)
+
+![VS Code Preview 2](img/3.png)
 ## ⚡ Quick Start
 
 1. Install the required font:
