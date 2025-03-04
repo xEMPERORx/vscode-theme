@@ -24,6 +24,7 @@ Here's how your VS Code will look after applying these settings:
    - GitHub Copilot
    - Tailwind CSS IntelliSense
    - Custom CSS and JS Loader
+   - Toggle
 
 3. Copy the configuration files:
    - `settings.json` → `.vscode/settings.json`
